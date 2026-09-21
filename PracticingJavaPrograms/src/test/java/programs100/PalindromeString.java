@@ -12,11 +12,11 @@ public class PalindromeString {
 		String org = str;
 		System.out.println("Original String "+ org);
 		
-		String rev = null;
+		String rev = "";
 		for (int i = str.length()-1 ; i>=0 ; i-- )
 		{ rev = rev+str.charAt(i); }	
 		
-		if (org == rev)
+		if (org.equals(rev))
 		{System.out.println("Palindrom ");}	
 		else 
 		{System.out.println("not");}

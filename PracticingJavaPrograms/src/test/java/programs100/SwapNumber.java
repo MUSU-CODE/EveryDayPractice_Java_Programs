@@ -13,7 +13,7 @@ public class SwapNumber {
 		int num1 = scn.nextInt();
 		int num2 = scn.nextInt();
 		
-		int temp = 0;
+		int temp = 0; //local variable must be initialize before using
 		System.out.println("One number we took is "+ num1);
 		System.out.println("Another number we took is "+ num2);
 		
