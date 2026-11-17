@@ -15,7 +15,7 @@ public class ReverseEachWordInAString {
 		System.out.println(reverseString.trim()); */ //Java To Welcome
 		
 		
-		/* for(String w: words)
+		 for(String w: words)
 		   {
 			   String reverseWord="" ;
 			
@@ -27,7 +27,7 @@ public class ReverseEachWordInAString {
 			   reverseString = reverseString + reverseWord + " " ;
 		   }
 		
-		  System.out.println( reverseString ); */
+		  System.out.println( reverseString ); 
 		
 		
 		//Approach 2
